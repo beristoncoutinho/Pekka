@@ -2,7 +2,7 @@ package start;
 
 import java.util.Scanner;
 //This method return Factorial
-public class factorial {
+public class fact{
 	Scanner sc = new Scanner(System.in);
 	public int factorial() {
 		int i=1,fact=1;
