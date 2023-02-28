@@ -1,5 +1,7 @@
 package start;
+
 import java.util.Scanner;
+//This method return Factorial
 public class factorial {
 	Scanner sc = new Scanner(System.in);
 	public int factorial() {
