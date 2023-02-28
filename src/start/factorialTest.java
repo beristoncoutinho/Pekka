@@ -8,7 +8,7 @@ class factorialTest {
 
 	@Test
 	void test() {
-		factorial f=new factorial();
+		fact f=new fact();
 		assertEquals(120,f.factorial());
 	}
 
