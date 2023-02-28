@@ -1,5 +1,5 @@
 package start;
-
+//This method test Factorial of number
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
