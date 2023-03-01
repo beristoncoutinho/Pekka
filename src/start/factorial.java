@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class fact{
 	Scanner sc = new Scanner(System.in);
 	public int factorial() {
-		int i=1,fact=1;
+		int f=1;
 		System.out.print("Enter a number ");
 		int num = sc.nextInt();
-		for (i=1;i<=num;i++) {
-			fact=fact*i;
+		for (int i=1;i<=num;i++) {
+			f=f*i;
 			
 		}
-		return fact;
+		return f;
 		
 	}
 
