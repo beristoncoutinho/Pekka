@@ -1,7 +1,7 @@
 package start;
 
 import java.util.Scanner;
-//This method return Factorial
+//This method return Factorial of a number
 public class fact{
 	Scanner sc = new Scanner(System.in);
 	public int factorial() {
@@ -10,7 +10,7 @@ public class fact{
 		int num = sc.nextInt();
 		for (int i=1;i<=num;i++) {
 			f=f*i;
-			
+			System.out.prinln(f);
 		}
 		return f;
 		
